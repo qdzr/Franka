@@ -1,0 +1,13 @@
+<launch>
+  <!-- start the robot -->
+  <include file="$(find panda_moveit_config)/launch/panda_control_moveit_rviz.launch"> 
+     <!--
+     <arg name="limited" value="true"/>
+     <arg name="robot_ip" value="172.16.0.2"/>
+     -->
+  </include>
+  <include file="$(find freenect_launch)/launch/freenect.launch">
+  </include>
+  <include file="$(find usb_cam)/launch/usb_cam-test.launch">
+  </include>
+</launch>

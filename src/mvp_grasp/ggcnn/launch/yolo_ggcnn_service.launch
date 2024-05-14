@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<launch>
+  <rosparam command="load" file="$(find mvp_grasping)/cfg/mvp_grasp.yaml" />  
+  <rosparam command="load" file="$(find ggcnn)/cfg/ggcnn_service.yaml" />
+  <node name="ggcnn_service" pkg="ggcnn" type="yolo_ggcnn_service_node.py" output="screen"/>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find mvp_grasping)/launch/robot_bringup.launch" />
+  <include file="$(find mvp_grasping)/launch/wrist_realsense.launch" />
+  <include file="$(find easy_handeye)/launch/publish_realsense.launch" />
+</launch>

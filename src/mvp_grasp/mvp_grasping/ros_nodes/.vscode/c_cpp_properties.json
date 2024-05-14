@@ -1,0 +1,57 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/gh/catkin_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/gh/catkin_franka/devel/include/**",
+        "/home/gh/catkin_ws/src/grasp/agile_grasp/include/**",
+        "/home/gh/catkin_ws/src/aruco_ros/aruco/include/**",
+        "/home/gh/catkin_ws/src/aruco_ros/aruco_ros/include/**",
+        "/home/gh/catkin_ws/src/ros_astra_camera/include/**",
+        "/home/gh/catkin_ws/src/Universal_Robots_ROS_Driver-master/controller_stopper/include/**",
+        "/home/gh/catkin_ws/src/DOPE-ROS-D435/ddynamic_reconfigure/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/ecto/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/ecto_image_pipeline/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/ecto_pcl/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/ecto_ros/include/**",
+        "/home/gh/catkin_ws/src/find_object_2d/include/**",
+        "/home/gh/catkin_franka/src/franka_ros/franka_control/include/**",
+        "/home/gh/catkin_franka/src/mvp_grasp/franka_control_wrappers/include/**",
+        "/home/gh/catkin_franka/src/franka_ros/franka_example_controllers/include/**",
+        "/home/gh/catkin_franka/src/franka_ros/franka_gazebo/include/**",
+        "/home/gh/catkin_franka/src/franka_ros/franka_gripper/include/**",
+        "/home/gh/catkin_franka/src/franka_ros/franka_hw/include/**",
+        "/home/gh/catkin_franka/src/franka_motion_control/include/**",
+        "/home/gh/catkin_franka/src/franka_pick_place/include/**",
+        "/home/gh/catkin_ws/src/gpd_ros/include/**",
+        "/home/gh/catkin_ws/src/DOPE-ROS-D435/librealsense/include/**",
+        "/home/gh/catkin_ws/src/grasp/moveit_grasps/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/object_recognition_core/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/object_recognition_renderer/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/object_recognition_ros/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/object_recognition_tabletop/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/object_recognition_transparent_objects/include/**",
+        "/home/gh/catkin_ws/src/ORK/src/opencv_candidate/include/**",
+        "/home/gh/catkin_ws/src/DOPE-ROS-D435/realsense-ros/realsense2_camera/include/**",
+        "/home/gh/catkin_ws/src/Universal_Robots_ROS_Driver-master/ur_calibration/include/**",
+        "/home/gh/catkin_ws/src/Universal_Robots_ROS_Driver-master/ur_controllers/include/**",
+        "/home/gh/catkin_ws/src/fmauch_universal_robot/ur_kinematics/include/**",
+        "/home/gh/catkin_ws/src/Universal_Robots_ROS_Driver-master/ur_robot_driver/include/**",
+        "/home/gh/catkin_ws/src/usb_cam/include/**",
+        "/home/gh/catkin_ws/src/easy_handeye/vision_visp/visp_bridge/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

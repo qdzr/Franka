@@ -1,0 +1,21 @@
+<launch>
+
+  <!-- This file makes it easy to include the settings for sensor managers -->
+
+  <!-- Param for kinect config -->
+  <rosparam command="load" file="$(find panda_moveit_config)/config/sensors_kinect_pointcloud.yaml" />
+
+  <!-- Params for the octomap monitor -->
+  <!--  <param name="octomap_frame" type="string" value="some frame in which the robot moves" /> -->
+  <!-- 指定octomap所在坐标系 --> 
+  <param name="octomap_frame" type="string" value="camera_rgb_optical_frame" />
+  <!-- octomap分辨率越小，需要的系统资源越多 --> 
+  <param name="octomap_resolution" type="double" value="0.05" />
+  <param name="max_range" type="double" value="1.0" />
+
+  <!-- Load the robot specific sensor manager; this sets the moveit_sensor_manager ROS parameter -->
+  <!-- 传参数到参数服务器 --> 
+  <arg name="moveit_sensor_manager" default="panda" />
+  <include file="$(find panda_moveit_config)/launch/$(arg moveit_sensor_manager)_moveit_sensor_manager.launch.xml" />
+
+</launch>

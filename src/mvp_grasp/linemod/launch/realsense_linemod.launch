@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<launch>
+  <include file="$(find realsense2_camera)/launch/rs_rgbd.launch" />
+  <node pkg="tf" type="static_transform_publisher" name="realsense_link_broadcaster"
+        args="0.040 -0.0175 0.066 3.1415 -1.571 0 /panda_hand /camera_link 100" />
+  <!--<include file="$(find easy_handeye)/launch/publish_realsense.launch" />-->
+  <!--<node pkg="tf" type="static_transform_publisher" name="realsense_link_broadcaster3"
+        args="0.021587 -0.028356 -0.004977 0.72250982 -0.017078 0.69114131 0.0034049 /panda_hand /camera_link 100" />-->
+</launch>
